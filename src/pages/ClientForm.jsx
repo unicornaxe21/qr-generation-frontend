@@ -55,7 +55,7 @@ export const ClientForm = () => {
             {...register('firstName')}
             type='text'
             value={firstName}
-            placeholder='First name'
+            placeholder='First name..'
             className='form__item'
             onChange={(e) => setFirstName(e.target.value)}
             required
